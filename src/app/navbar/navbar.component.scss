@@ -1,0 +1,23 @@
+.navbar-brand {
+    font-weight: 900;
+    font-size: 40px;
+  }
+  a {
+    color: #fff;
+  }
+  .nav-item {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .nav-link_bottom {
+    height: 3px;
+    background: linear-gradient(45deg, #6157ff, #4975cb);
+  }
+  .nav-link:hover {
+    background: linear-gradient(45deg, #6157ff, #7e48cd);
+    color: #fff;
+  }
+  .search_btn {
+    background: linear-gradient(45deg, #6157ff, #e0409b);
+    outline: none;
+  }
