@@ -1,7 +1,10 @@
 <div class="container-fluid mt-5">
     <div class="row">
-        <div class="col-md-3">
-            <app-gif-card></app-gif-card>
+        <div class="col-md-3 mb-3" *ngFor="let gif of gifs">
+            <app-gif-card [gif]="gif"></app-gif-card>
         </div>
+    </div>
+    <div class="text-center mt-5 mb-4">
+        <button class="btn btn-outline-primary" (click)="loadMore()" [disabled]="loading">Load More</button>
     </div>
 </div>
